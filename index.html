@@ -41,7 +41,8 @@
                     <span>*</span>Whether citizen of India
 
                     <label for="yes" style="padding-left:40px">Yes</label>
-                    <input type="radio" name="" id="yes">
+                    <input type="radio" name="yes" id="yes">
+                    
 
                     <label for="no" style="padding-left:80px">No</label>
                     <input type="radio" name="" id="no">
@@ -67,13 +68,13 @@
                 <td></td>
                 <td colspan="2">
                     <label for="">Title</label>
-                    <label for="" style="padding-left:20px">Shri/Mr</label>
+                    <label for="" style="padding-left:20px;font-weight:lighter">Shri/Mr</label>
                     <input type="radio" name="" id="">
 
-                    <label for="" style="padding-left:20px">Smt/Mrs</label>
+                    <label for="" style="padding-left:20px;font-weight:lighter">Smt/Mrs</label>
                     <input type="radio" name="" id="">
 
-                    <label for="" style="padding-left:20px">Kumari/Ms</label>
+                    <label for="" style="padding-left:20px;font-weight:lighter">Kumari/Ms</label>
                     <input type="radio" name="" id="">
                 </td>
              </tr>
@@ -112,7 +113,7 @@
                 <td></td>
                 <td colspan="2">
                     <label for="">Details of Parents.</label>
-                    <label for="" style="color: blue">(Prefix like Shri,Smt,Kumari,Late,Dr,CA,Ms,Mr,Mrs,M/s,Alias etc. are not allowed)</label>
+                    <label for="" style="color:blue">(Prefix like Shri,Smt,Kumari,Late,Dr,CA,Ms,Mr,Mrs,M/s,Alias etc. are not allowed)</label>
                 </td>
             </tr>
             <tr>
@@ -266,7 +267,7 @@
                 <td></td>
                 <td>
                     <label for="">Office Name</label>
-                    <i>(to be filled only in case of office address)</i>
+                    <i style="font-weight:lighter">(to be filled only in case of office address)</i>
                 </td>
                 <td>
                     <input type="text" name="" id="" size="50%">
@@ -323,7 +324,9 @@
                     <label for="">State/Union Territory</label>
                 </td>
                 <td>
-                    <input type="text" name="" id="">
+                    <select>
+                        <option>--Please Select--</option>
+                    </select>
                 </td>
             </tr>
             <tr>
@@ -367,11 +370,11 @@
                 <td>
                     <span>*</span>
                     <label for="">11. Telephone No.</label><br>
-                    <label for="">(Country code is compulsory)</label>
+                    <label for="" style="font-weight:lighter;">(Country code is compulsory)</label>
                 </td>
                 <td>
                     <label for="">Country code(ISD code)</label><br>
-                    <select style="width:250px">/select><br>
+                    <select style="width:250px"><option>--Please Select--</option></select><br>
                     <label for="">Mobile No.</label>
                     <input type="radio" name="num" id="">
                     <label for="">Telephone No</label>
@@ -392,7 +395,7 @@
             <tr>
                 <td></td>
                 <td>
-                    <label for="">In case of a citizen of India,then</label>
+                    <label for="" style="font-weight:lighter">In case of a citizen of India,then</label>
                 </td>
                 <td>
                     <label for="">AADHAAR</label>
@@ -418,7 +421,7 @@
                 <td></td>
                 <td>
                     <span>*</span>
-                    <div>Name as per AADHAAR letter or as per the enrollment ID of Aadhaar application form</div>
+                    <div style="font-weight:lighter">Name as per AADHAAR letter or as per the enrollment ID of Aadhaar application form</div>
                 </td>
                 <td>
                     <input type="text" name="" id="">
@@ -476,7 +479,7 @@
                     <label for="" name="" id="">I/We</label>
                     <input type="text" name="" id="" style="width:10cm">
                     <label for="" name="" id="">,the applicant in the capacity of </label>
-                    <select style="width:5cm"></select>
+                    <select style="width:5cm"><option>--Please Select--</option></select>
                     <label for="" name="" id="">do hereby declare that what is stated above is true to the best of my information and belief.</label><br><br>
                     <label for="" name="" id="">I have enclosed</label>
                     <input type="text" name="" id="" style="width:2cm">
@@ -501,15 +504,15 @@
             <tr> 
                 <td></td>
                 <td colspan="2">
-                   <label for="">I/We have enclosed</label><br>
-                   <select style="width:38cm" ></select>
-                   <label for="">as proof of identity,</label>
-                   <select style="width:30cm"></select>
-                   <label for="">as proof of address,</label><br>
-                   <select style="width:35cm"></select>
-                   <label for="">as proof of date of birth and</label> 
-                   <select style="width:10cm"></select>
-                   <label for="">as proof of PAN allotted.</label>
+                   <label for="" style="font-weight:lighter">I/We have enclosed</label><br>
+                   <select style="width:38cm" ><option>--Please Select--</option></select>
+                   <label for=""style="font-weight:lighter">as proof of identity,</label>
+                   <select style="width:30cm"><option>--Please Select--</option></select>
+                   <label for=""style="font-weight:lighter">as proof of address,</label><br>
+                   <select style="width:35cm"><option>--Please Select--</option></select>
+                   <label for=""style="font-weight:lighter">as proof of date of birth and</label> 
+                   <select style="width:10cm"><option>--Please Select--</option></select>
+                   <label for=""style="font-weight:lighter">as proof of PAN allotted.</label>
                 </td>
             </tr>
             <tr>
